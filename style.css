@@ -522,4 +522,13 @@ body {
 
 .product-detail-meta {
     display: grid;
+
     grid-template-columns: repeat(3, 1fr);
+}
+.footer {
+    background-color: #fff;
+    box-shadow: 0 -2px 15px rgba(0, 0, 0, 0.08); /* ombre en haut */
+    position: sticky;
+        top: 0;
+        z-index: 1000;
+}
